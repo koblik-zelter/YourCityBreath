@@ -1,0 +1,76 @@
+PODS:
+  - Alamofire (4.9.0)
+  - DrawerView (1.2.1)
+  - FloatingPanel (1.7.0)
+  - MaterialComponents/AnimationTiming (92.4.0)
+  - MaterialComponents/Buttons (92.4.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (92.4.0)
+  - MaterialComponents/private/Color (92.4.0)
+  - MaterialComponents/private/Math (92.4.0)
+  - MaterialComponents/Ripple (92.4.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (92.4.0)
+  - MaterialComponents/ShadowLayer (92.4.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (92.4.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (92.4.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - OverlayContainer (3.1.0)
+  - PinterestLayout (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - DrawerView
+  - FloatingPanel
+  - MaterialComponents/Buttons
+  - OverlayContainer
+  - PinterestLayout
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DrawerView
+    - FloatingPanel
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - OverlayContainer
+    - PinterestLayout
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  DrawerView: c08597a6675c171367f60405a22ddf88ecd17959
+  FloatingPanel: f686602da8eff56375e577f19be37348a95f4e24
+  MaterialComponents: b584175e16dc0bff91ca4c867c64f381f89511ae
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  OverlayContainer: 58cd1bd2514ad9b8736df775f12743dbb94a1fe9
+  PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+
+PODFILE CHECKSUM: 3cbb56fa908ea79841e95273931fc3635d7ec270
+
+COCOAPODS: 1.8.3

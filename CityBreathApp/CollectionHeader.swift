@@ -86,7 +86,7 @@ class CollectionHeader: UICollectionReusableView {
     let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
-        iv.image = UIImage(named: "slightly-smiling-face_1f642")
+        iv.image = UIImage(named: "neutral-face_1f610")
         iv.clipsToBounds = true
         return iv
     }()
@@ -101,7 +101,7 @@ class CollectionHeader: UICollectionReusableView {
         label.textAlignment = .center
        // label.textColor = UIColor.fromHex(hex: "NormalColor")
         //255 98 102
-        label.textColor = UIColor.systemGreen
+        label.textColor = .fromHex(hex: "FFBC24")
         return label
     }()
     
@@ -113,7 +113,7 @@ class CollectionHeader: UICollectionReusableView {
         label.backgroundColor = .clear
         label.text = "Unhealthy"
         label.textAlignment = .right
-        label.textColor = .systemGreen
+        label.textColor = .fromHex(hex: "FFBC24")
         //label.textColor = UIColor.fromHex(hex: "NormalColor")
         return label
     }()

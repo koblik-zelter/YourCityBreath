@@ -71,19 +71,20 @@ class DrawerCollectionViewController: UIViewController, UICollectionViewDelegate
         cell.pollutant = pollutants[indexPath.item]
         cell.view.sizeToFit()
         
-        if indexPath.item == 1 {
-            cell.isRed = true
-        }
-
-        else {
-            cell.isRed = false
-        }
         
         if indexPath.item % 2 != 0 {
             cell.isRight = true
         }
         else {
             cell.isRight = false
+        }
+        
+        if indexPath.item == 1 {
+            cell.isRed = true
+        }
+
+        else {
+            cell.isRed = false
         }
         //cell.backgroundColor = .blue
         return cell

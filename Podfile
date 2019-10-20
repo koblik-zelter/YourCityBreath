@@ -12,6 +12,7 @@ target 'CityBreathApp' do
 	pod 'FloatingPanel'
 	pod 'PinterestLayout'
 	pod 'Alamofire'
+	pod "Pulsator"
 
 
 end

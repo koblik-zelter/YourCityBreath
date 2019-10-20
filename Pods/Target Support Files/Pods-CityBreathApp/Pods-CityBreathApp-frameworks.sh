@@ -169,6 +169,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OverlayContainer/OverlayContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PinterestLayout/PinterestLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
@@ -179,6 +180,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/OverlayContainer/OverlayContainer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PinterestLayout/PinterestLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

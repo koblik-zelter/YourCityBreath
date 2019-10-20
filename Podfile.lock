@@ -41,6 +41,7 @@ PODS:
   - MDFTextAccessibility (2.0.0)
   - OverlayContainer (3.1.0)
   - PinterestLayout (1.0.3)
+  - Pulsator (0.6.0)
 
 DEPENDENCIES:
   - Alamofire
@@ -49,6 +50,7 @@ DEPENDENCIES:
   - MaterialComponents/Buttons
   - OverlayContainer
   - PinterestLayout
+  - Pulsator
 
 SPEC REPOS:
   trunk:
@@ -60,6 +62,7 @@ SPEC REPOS:
     - MDFTextAccessibility
     - OverlayContainer
     - PinterestLayout
+    - Pulsator
 
 SPEC CHECKSUMS:
   Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
@@ -70,7 +73,8 @@ SPEC CHECKSUMS:
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   OverlayContainer: 58cd1bd2514ad9b8736df775f12743dbb94a1fe9
   PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  Pulsator: eb5a9f9be4bdcbd19903984c65deca6aabe50a17
 
-PODFILE CHECKSUM: 3cbb56fa908ea79841e95273931fc3635d7ec270
+PODFILE CHECKSUM: c679b38de66d1b04c63be63f207d55b8bde89925
 
 COCOAPODS: 1.8.3

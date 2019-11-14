@@ -51,12 +51,12 @@ class DrawerCollectionViewController: UIViewController, UICollectionViewDelegate
         ApiManager.shared.fetchData { (data) in
             self.data = data
           // self.pollutants.append(contentsOf: data!.data.pollutants)
-            self.pollutants.append((data?.data.pollutants.co)!)
-            self.pollutants.append((data?.data.pollutants.pm25)!)
-            self.pollutants.append((data?.data.pollutants.no2)!)
-            self.pollutants.append((data?.data.pollutants.o3)!)
-            self.pollutants.append((data?.data.pollutants.pm10)!)
-            self.pollutants.append((data?.data.pollutants.so2)!)
+            self.pollutants.append((data.data.pollutants.co))
+            self.pollutants.append((data.data.pollutants.pm25))
+            self.pollutants.append((data.data.pollutants.no2))
+            self.pollutants.append((data.data.pollutants.o3))
+            self.pollutants.append((data.data.pollutants.pm10))
+            self.pollutants.append((data.data.pollutants.so2))
             self.collectionView.reloadData()
         }
     }

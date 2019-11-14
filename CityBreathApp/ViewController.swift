@@ -87,7 +87,6 @@ class ViewController: UIViewController, UISearchBarDelegate, UISearchControllerD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.setupMapView()
         self.setupLocation()
         self.setupSearchBar()
